@@ -1,6 +1,7 @@
 *{
     margin: 0%;
     padding: 0%;
+    
 }
 
 
@@ -11,7 +12,7 @@
 .top-area{
 
     height: 80px;
-    background-color: #f2f2f2ad;
+    background-color: #eaeaea;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -72,9 +73,13 @@
 
 .home-content{
 
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: space-between;
-    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 7%;
 }
 .content{
    
@@ -139,18 +144,24 @@
  .what-peaple-say{
 
     width: 100%;
-    height: 700px;
-    margin-top:5%;
+    height: 900px;
+   
+    background-color: #eaeaea;
 
  }
  .what-peaple-say h2{
 
     font-size: 70px;
     font-weight: bold;
-    margin-left: 30%;
+    padding: 5% 29.2% 5% 30%;
     width: 600px;
     font-family: sans-serif;
     text-align: center;
+    color: white;
+    background-color: black;
+    background-image: url(images/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     
  }
  .content-peaple-say{
@@ -201,8 +212,10 @@
     display: flex;
     width: 100%;
     height: 400px;
-    margin-top: 10%;
     background-color: rgb(166, 167, 168);
+    background-image: url(images/bg3.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
  }
  .logo{
     margin-top: 5%;

@@ -75,6 +75,7 @@
 .about-company h1{
     font-size: 40px;
     color: #919191;
+    padding-left: 45%;
 
 }
 .about-company p{
@@ -92,7 +93,7 @@
 /*--------------------Our-Team--------------*/
 div~h1{
     margin-top: 10%;
-    margin-left: 5%;
+    padding-left: 40%;
     font-family: sans-serif;
     font-size: 40px;
     color: #919191;
@@ -108,9 +109,9 @@ div~h1{
 .team{
     width: 20%;
     height: 400px;
-    box-shadow: black 0px 0px 2px 0px;
+    box-shadow: black 0px 0px 4px 0px;
     border-radius: 5px;
-    background-color: #f6f6f6;
+    background-color: white;
     text-align: center;
     
 
@@ -159,6 +160,7 @@ div~h1{
 .team button:hover{
     background-color: white;
     color: black;
+    border: black solid 1px;
    
 }
 /*----------------find-us----------------*/
@@ -170,6 +172,7 @@ div~h1{
 .addreese{
     text-align: center;
     font-size: x-large;
+    padding-left: 5%;
 
 }
 .google-maps{
@@ -186,8 +189,11 @@ div~h1{
     display: flex;
     width: 100%;
     height: 400px;
-    margin-top: 10%;
+    
     background-color: rgb(166, 167, 168);
+    background-image: url(images/bg3.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
  }
  .logo{
     margin-top: 5%;

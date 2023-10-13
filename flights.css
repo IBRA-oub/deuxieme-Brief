@@ -121,11 +121,12 @@
 
 .availabl-flight-V-content {
     width: 25%;
-    background-color:#d9d9d93b;
+    background-color: white;
+    box-shadow: black 0px 0px 5px;
     text-align: center; 
     font-family: sans-serif;
     border-radius: 5px;
-    box-shadow: black 0px 0px 4px 0px;
+   
 }
 .availabl-flight-V-content:hover{
     background-color: black;
@@ -207,11 +208,11 @@
 
 .availabl-flight-kech-content {
     width: 25%;
-    background-color:#d9d9d93b;
+    background-color:white;
+    box-shadow: black 0px 0px 5px;
     text-align: center; 
     font-family: sans-serif;
     border-radius: 5px;
-    box-shadow: black 0px 0px 4px 0px;
 }
 .availabl-flight-kech-content:hover{
     background-color: black;
@@ -258,6 +259,9 @@
     height: 400px;
     margin-top: 10%;
     background-color: rgb(166, 167, 168);
+    background-image: url(images/bg3.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
  }
  .logo{
     margin-top: 5%;

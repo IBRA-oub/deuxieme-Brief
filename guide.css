@@ -5,7 +5,7 @@
 .top-area{
    
     height: 80px;
-    background-color: #f2f2f2ad;
+    background-color: #eaeaea;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -65,16 +65,22 @@
 .country-availabl{
     display: flex;
     justify-content: space-around;
-    margin-top: 5%;
+    padding-top: 5%;
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 7%;
 }
 .all-content{
-    background-color:#d9d9d93b;
+  
     width: 25%;
     height: 500px;
     border-radius: 5px;
+    background-color: #eaeaea;
+    box-shadow: black 0px 0px 5px;
 }
 .all-content:hover{
-    background-color: #d9d9d9b5;
+    background-color: #bcbcbce3;
 }
 
 .image-centent{
@@ -84,6 +90,7 @@
     line-height: 3;
     padding-top: 10%;
     position: relative;
+    border-radius: 5px;
   
 }
 .new{
@@ -106,6 +113,7 @@
     color: white;
     font-family: sans-serif;
     font-weight: bold;
+    font-size: x-large;
 
 }
 .bg-img1{
@@ -146,21 +154,23 @@
 .all-content button:hover{
     background-color: white;
     color: black;
+    border: black solid 1px;
    
 }
 /*--------------our-Guids-word-------------------*/
 
 .our-guids{
-    margin-top: 7%;
-    padding-top: 81px;
     padding-bottom: 81px;
-    padding-left: 602px;
     font-family: sans-serif;
     font-weight: bolder;
     font-size: 50px;
     width: auto;
     color: white;
     background-color: black;
+    background-image: url(images/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5% 0% 5% 43%;
    
 
 }
@@ -170,7 +180,9 @@
 .guids-profils{
 
     display: flex;
-    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #eaeaea;
 }
 
 .guid{
@@ -178,8 +190,10 @@
     height: 400px;
     margin-left: 10%;
     border-radius: 5px;
-    background-color: #f6f6f6;
+    background-color: #eaeaea;
+    box-shadow: black 0px 0px 5px;
     text-align: center;
+
     
 
 }
@@ -194,6 +208,7 @@
 }
 .guid:hover{
     background-color: #d9d9d9b5;
+    background-color: #bcbcbce3;
 }
 .guid img{
     width: 100%;
@@ -227,6 +242,7 @@
 .guid button:hover{
     background-color: white;
     color: black;
+    border: black solid 1px;
    
 }
 
@@ -237,8 +253,11 @@
     display: flex;
     width: 100%;
     height: 400px;
-    margin-top: 10%;
+    
     background-color: rgb(166, 167, 168);
+    background-image: url(images/bg3.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
  }
  .logo{
     margin-top: 5%;
