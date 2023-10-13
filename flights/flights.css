@@ -98,21 +98,21 @@
     
 }
 .div-image1-V {
-    background-image: url(images/image.jpg);
+    background-image: url(../images/image.jpg);
     background-size: cover;
     background-position: 80% 70%;
     height:150px ;
     border-radius: 5px;
 }
 .div-image2-V {
-    background-image: url(images/image2.jpg);
+    background-image: url(../images/image2.jpg);
     background-size: cover;
     background-position: 80% 70%;
     height:150px ;
     border-radius: 5px;
 }
 .div-image3-V {
-    background-image: url(images/image3.jpg);
+    background-image: url(../images/image3.jpg);
     background-size: cover;
     background-position: 80% 70%;
     height:150px ;
@@ -185,21 +185,21 @@
     
 }
 .div-image1-kech {
-    background-image: url(images/image.jpg);
+    background-image: url(../images/image.jpg);
     background-size: cover;
     background-position: 80% 70%;
     height:150px ;
     border-radius: 5px;
 }
 .div-image2-kech {
-    background-image: url(images/image2.jpg);
+    background-image: url(../images/image2.jpg);
     background-size: cover;
     background-position: 80% 70%;
     height:150px ;
     border-radius: 5px;
 }
 .div-image3-kech {
-    background-image: url(images/image3.jpg);
+    background-image: url(../images/image3.jpg);
     background-size: cover;
     background-position: 80% 70%;
     height:150px ;
@@ -259,7 +259,7 @@
     height: 400px;
     margin-top: 10%;
     background-color: rgb(166, 167, 168);
-    background-image: url(images/bg3.png);
+    background-image: url(../images/bg3.png);
     background-repeat: no-repeat;
     background-position: left bottom;
  }

@@ -147,7 +147,7 @@
     height: 400px;
     margin-top: 10%;
     background-color: rgb(166, 167, 168);
-    background-image: url(images/bg3.png);
+    background-image: url(../images/bg3.png);
     background-repeat: no-repeat;
     background-position: left bottom;
  }
